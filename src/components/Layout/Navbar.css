@@ -1,0 +1,21 @@
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll 20s linear infinite;
+    /* background-color: red; */
+    /* color: white; */
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    gap: 1rem;
+}
